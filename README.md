@@ -15,14 +15,14 @@ let titleStyle = HYTitleStyle()
 titleStyle.hasScrollLine = true
 ```
 
-![type_01](https://pan.baidu.com/disk/home#list/vmode=list&path=%2Fgif%E5%9B%BE%E7%89%87)
+![type_01](https://github.com/yuxunhuang/HYPageView/blob/master/gif/HYPageView_01.gif?raw=true)
 
 ```
 // 设置样式
 titleStyle.hasScrollLine = true
 titleStyle.lineScrollType = .RealTime
 ```
-![type_02](https://pan.baidu.com/disk/home#list/vmode=list&path=%2Fgif%E5%9B%BE%E7%89%87)
+![type_02](https://github.com/yuxunhuang/HYPageView/blob/master/gif/HYPageView_02.gif?raw=true)
 
 ```
 // 设置样式
@@ -30,11 +30,11 @@ titleStyle.hasGradient = true
 // titleStyle.selectedColor = UIColor(red: 1.0, green: 0.5, blue: 0, alpha: 1.0)
 
 ```
-![type_03](https://pan.baidu.com/disk/home#list/vmode=list&path=%2Fgif%E5%9B%BE%E7%89%87)
+![type_03](https://github.com/yuxunhuang/HYPageView/blob/master/gif/HYPageView_03.gif?raw=true)
 
 ```
 // 设置样式
 titleStyle.hasGradient = true
 titleStyle.selectedFont = UIFont.systemFont(ofSize: 16)
 ```
-![type_04](https://pan.baidu.com/disk/home#list/vmode=list&path=%2Fgif%E5%9B%BE%E7%89%87)
+![type_04](https://github.com/yuxunhuang/HYPageView/blob/master/gif/HYPageView_04.gif?raw=true)
