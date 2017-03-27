@@ -45,13 +45,17 @@ extension ViewController {
 //        titleStyle.lineScrollType = .RealTime
         
         // 样式三
-//        titleStyle.hasGradient = true
-////        titleStyle.selectedColor = UIColor(red: 1.0, green: 0.5, blue: 0, alpha: 1.0)
+        titleStyle.hasGradient = true
+//        titleStyle.selectedColor = UIColor(red: 1.0, green: 0.5, blue: 0, alpha: 1.0)
         
         // 样式四
 //        titleStyle.hasGradient = true
 //        titleStyle.selectedFont = UIFont.systemFont(ofSize: 16)
         
+        // titles：标题数组  
+        // childVCs：每个标题对应要显示的控制器  
+        // parentVC：标题控制器对应的父控制器
+        // titleStyle： 控制器标题的样式
         let pageView = HYPageView.init(frame: view.bounds, titles: titles, childVCs: childVCs, parentVC: self, titleStyle: titleStyle)
         view.addSubview(pageView)
     }
