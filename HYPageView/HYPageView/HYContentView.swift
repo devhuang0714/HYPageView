@@ -103,9 +103,15 @@ extension HYContentView: UICollectionViewDataSource, UICollectionViewDelegate {
         if scrollView.contentOffset.x - currentOffsetX < 0 { // 向右滑动 索引减小
             targetIndex = currentIndex - 1
             delta = currentOffsetX - scrollView.contentOffset.x
+            if (targetIndex < 0) {
+                targetIndex = 0
+            }
         } else { // 向左滑动 索引增大
             targetIndex = currentIndex + 1
             delta = scrollView.contentOffset.x - currentOffsetX
+            if (targetIndex >= childVCs.count) {
+                targetIndex = currentIndex
+            }
         }
         progress = delta / bounds.width
         if progress > 1.0 {
